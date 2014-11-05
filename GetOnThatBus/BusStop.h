@@ -14,6 +14,7 @@
 @property NSString *address;
 @property NSString *intermodal;
 
+
 @property double longitude;
 @property double latitude;
 

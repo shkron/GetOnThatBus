@@ -14,10 +14,19 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary;
 {
     self = [super init];
-    self.name = dictionary[@"name"];
+    self.name = dictionary[@"cta_stop_name"];
     self.routes = dictionary[@"routes"];
     self.address = dictionary[@"_address"];
-    self.intermodal = dictionary[@"inter_modal"];
+
+    //checking the inter_modal object in dictionary
+    if (dictionary[@"inter_modal"])
+    {
+        self.intermodal = dictionary[@"inter_modal"];
+    } else
+    {
+        self.intermodal = @"none";
+    }
+
     self.longitude = [dictionary[@"longitude"] doubleValue];
     self.latitude = [dictionary[@"latitude"] doubleValue];
 

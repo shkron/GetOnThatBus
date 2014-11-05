@@ -16,6 +16,7 @@
 		FA845A791A09862000E13702 /* GetOnThatBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA845A781A09862000E13702 /* GetOnThatBusTests.m */; };
 		FA845A831A09869900E13702 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA845A821A09869900E13702 /* MapKit.framework */; };
 		FA845A861A098FC700E13702 /* BusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = FA845A851A098FC700E13702 /* BusStop.m */; };
+		FAB1BAE01A09AC2E005C611C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1BADF1A09AC2E005C611C /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		FA845A821A09869900E13702 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FA845A841A098FC700E13702 /* BusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStop.h; sourceTree = "<group>"; };
 		FA845A851A098FC700E13702 /* BusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStop.m; sourceTree = "<group>"; };
+		FAB1BADE1A09AC2E005C611C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FAB1BADF1A09AC2E005C611C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				FA845A611A09862000E13702 /* AppDelegate.m */,
 				FA845A631A09862000E13702 /* RootViewController.h */,
 				FA845A641A09862000E13702 /* RootViewController.m */,
+				FAB1BADE1A09AC2E005C611C /* DetailViewController.h */,
+				FAB1BADF1A09AC2E005C611C /* DetailViewController.m */,
 				FA845A871A098FCB00E13702 /* Model */,
 				FA845A691A09862000E13702 /* Images.xcassets */,
 				FA845A6B1A09862000E13702 /* LaunchScreen.xib */,
@@ -236,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB1BAE01A09AC2E005C611C /* DetailViewController.m in Sources */,
 				FA845A861A098FC700E13702 /* BusStop.m in Sources */,
 				FA845A651A09862000E13702 /* RootViewController.m in Sources */,
 				FA845A621A09862000E13702 /* AppDelegate.m in Sources */,
@@ -433,6 +439,7 @@
 				FA845A7E1A09862000E13702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA845A7F1A09862000E13702 /* Build configuration list for PBXNativeTarget "GetOnThatBusTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +448,7 @@
 				FA845A811A09862000E13702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
